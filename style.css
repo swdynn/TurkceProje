@@ -1,0 +1,82 @@
+
+.topnav {
+  background: linear-gradient(180deg, rgb(255, 255, 255), rgba(181, 169, 201));
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+
+.topnav a.active {
+  background: #000000;
+  color: white;
+}
+
+.git{
+    font-size: 200%;
+    color: white
+}
+
+body{
+    min-height: 30vh;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: auto;
+    padding-bottom: 50px;
+    background-image: url(bg.png);
+}
+
+.game{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 320px;
+  height: 240px;
+  outline: solid 2px black;
+}
+
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 600px;
+  margin-top: 15px;
+}
+
+
+
+.game-container {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+#fullscreen-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
